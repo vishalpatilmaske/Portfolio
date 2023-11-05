@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+#navigation {
+  background-color: rgb(17, 220, 235);
+}
+.navbar-brand {
+  font-family: Nunito Sans, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(13, 29, 29);
+}
+.nav-item {
+  color: black;
+  padding-right: 20px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.background-image {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.intro {
+  position: absolute;
+  margin-top: 200px;
+  font-family: serif;
+}
+.intro > div p {
+  color: white;
+}
+.intro-head {
+  font-size: 2rem;
+}
+.intro-heading {
+  font-size: 3rem;
+}
+.about-text {
+  white-space: normal;
+  font-family: Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+}
+.about-heading,
+.skill-heading {
+  text-align: center;
+  font-family: Nunito Sans, serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(13, 29, 29);
+}
+hr {
+  margin: auto;
+  border: 2px solid black;
+  width: 200px;
+}
+.skill {
+  background-color: rgb(17, 220, 235);
+}
+.skill-heading,
+.tecskill-heading {
+  text-align: center;
+}
+.skill-text {
+  white-space: normal;
+  font-family: Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+}
