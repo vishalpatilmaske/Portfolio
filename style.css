@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/* navigation bar code */
 ul {
   list-style-type: none;
   text-decoration: none;
@@ -22,6 +23,7 @@ ul {
 .navbar-nav {
   margin-left: auto;
 }
+/* first page introduction section of the page  */
 .background-image {
   background-image: url("background.jpg");
   background-size: cover;
@@ -43,6 +45,7 @@ ul {
 .intro-heading {
   font-size: 3rem;
 }
+/* second page about section of the page */
 .about-text {
   white-space: normal;
   font-family: Verdana, sans-serif;
@@ -50,7 +53,8 @@ ul {
   text-align: justify;
 }
 .about-heading,
-.skill-heading {
+.skill-heading,
+.details-heading {
   text-align: center;
   font-family: Nunito Sans, serif;
   font-size: 3rem;
@@ -62,16 +66,26 @@ hr {
   border: 2px solid black;
   width: 200px;
 }
+/*third page skill section of the page */
 .skill {
   background-color: rgb(17, 220, 235);
 }
 .skill-heading,
-.tecskill-heading {
+.tecskill-heading,
+.personal-heading,
+.qualification-heading,
+.contact-heading {
   text-align: center;
 }
-.skill-text {
+.skill-text,
+.details-text {
   white-space: normal;
   font-family: Verdana, sans-serif;
   font-size: 1rem;
   text-align: justify;
+}
+/* contact form  */
+.contact-form {
+  margin: auto;
+  text-align: center;
 }
