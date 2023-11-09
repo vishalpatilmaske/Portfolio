@@ -3,19 +3,17 @@ body {
   padding: 0px;
 }
 /* navigation bar code */
+.navbar {
+  background-color: #2c3e50;
+}
 ul {
   list-style-type: none;
   text-decoration: none;
+  font-family: Nunito Sans, serif;
 }
 .nav-link {
   color: white;
   font-size: 20px;
-}
-.hover-link ul li a :hover {
-  color: blue;
-}
-#navigation {
-  background-color: rgb(0, 0, 0);
 }
 .navbar-brand {
   font-family: Nunito Sans, serif;
@@ -38,20 +36,6 @@ ul {
   height: 600px;
 }
 
-.intro {
-  position: absolute;
-  margin-top: 300px;
-  font-family: serif, Verdan;
-}
-.intro > div p {
-  color: white;
-}
-.intro-head {
-  font-size: 2rem;
-}
-.intro-heading {
-  font-size: 3rem;
-}
 /* second page about section of the page */
 .about-text {
   white-space: normal;
@@ -64,9 +48,8 @@ ul {
 .details-heading {
   text-align: center;
   font-family: Nunito Sans, serif;
-  font-size: 3rem;
-  font-weight: bold;
-  color: rgb(13, 29, 29);
+  font-size: 5rem;
+  color: rgb(14, 16, 16);
 }
 hr {
   margin: auto;
@@ -83,6 +66,7 @@ hr {
 .qualification-heading,
 .contact-heading {
   text-align: center;
+  font-family: Nunito Sans, serif;
 }
 .skill-text,
 .details-text {
@@ -100,12 +84,11 @@ hr {
 }
 /* footer */
 .main-footer {
-  background-color: rgba(0, 0, 0, 0.817);
+  background-color: #213343;
 }
 .footer-text {
   color: whitesmoke;
-  font-size: 20px;
-  text-align: end;
+  font-size: 16px;
 }
 .footer-container {
   padding: 20px 0 20px;
@@ -116,5 +99,8 @@ a {
 }
 .footer-end {
   color: whitesmoke;
-  text-align: center;
+  text-align: start;
+  background-color: #0c2461;
+  padding: 5px 0px 5px 0px;
+  margin-left: 0px;
 }
