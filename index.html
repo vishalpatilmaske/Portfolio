@@ -19,15 +19,16 @@
 </head>
 
 <body>
+
   <!-- nevigation bar -->
-  <nav class="navbar navbar-expand-sm  navbar-dark">
-    <div class="container-fluid ">
-      <a class="navbar-brand " href="#">VISHAL MASKE</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">VISHAL MASKE</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">HOME</a>
           </li>
@@ -38,22 +39,28 @@
             <a class="nav-link" href="#">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">DETIALS</a>
+            <a class="nav-link" href="#">DETAILS</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
   <!-- introduction page -->
-  <section class="background-image img-fluid container-fluid">
-    <div class="row">
-
-
+  <section class="background-image">
+    <div class="container">
+        <div class="intro-container ">
+          <p class="intro-wellcome">Hello, Wellcome...</p>
+          <p class="intro-head">
+            I am <strong class="brand">VISHAL MASKE</strong>
+          </p>
+          <p class="intro-sentence">FULL STACK WEB DEVELOPER</p>
+        </div>
     </div>
   </section>
   <!-- about section -->
   <section class="about">
-    <div class="container-fluid-md p-5">
+    <div class="container-md p-5">
       <div class="about-heading">
         <hr />
         <h2 class="p-2">ABOUT ME</h2>
@@ -85,7 +92,7 @@ I am passionate about creating innovative and user-friendly web solutions, and I
   <br /><br />
   <!-- skill section -->
   <section class="skill">
-    <div class="container-fluid-md p-5">
+    <div class="container-md p-5">
       <div class="skill-heading">
         <hr />
         <h2 class="p-2">MY SKILL</h2>
@@ -122,7 +129,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
   </section>
   <!-- details section -->
   <section class="details">
-    <div class="container-fluid p-5">
+    <div class="container-md p-5">
       <div class="details-heading">
         <hr />
         <h2 class="p-2">MY DETAILS</h2>
@@ -151,7 +158,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
     </div>
   </section>
   <section class="contact">
-    <div class="container-fluid p-5">
+    <div class="container-md p-5">
       <div class="contact-heading">
         <hr />
         <h2 class="p-2">CONTACT ME</h2>
@@ -164,23 +171,23 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
         <div class="container col-md-8">
           <form action="action.php">
             <div class="row mb-3">
-              <div class="col-md-6">
+              <div class="col-md-6 formsize">
                 <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 formsize">
                 <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name" />
               </div>
             </div>
-            <div class="row mb-3">
-              <div class="col-md-6">
+            <div class="row mb-3 ">
+              <div class="col-md-6 formsize">
                 <input type="text" name="email" placeholder="E-mail" id="email" class="form-control" />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 formsize">
                 <input type="tel" name="number" class="form-control" id="number" placeholder="Phone" />
               </div>
             </div>
-            <div class="row mt-3">
-              <div class="col">
+            <div class="row mt-3 ">
+              <div class="col formsize">
                 <textarea name="comment" id="comment" rows="5" class="form-control"
                   placeholder="ENTER YOUR MESSAGE"></textarea>
               </div>
@@ -197,8 +204,8 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
   </section>
   <section class="main-footer">
     <footer>
-      <div class="container-fluid">
-        <div class="col-md-6 footer-container">
+      <div class="container  row">
+        <div class="col-sm-4 footer-container">
           <h2 class="text-white footer-heading">Personal Details</h2><br><br>
           <p class="footer-text">Vishal Maske</p>
           <p class="footer-text">+91 9322396236</p>
@@ -206,8 +213,14 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
             <a href="#">vishalpatilmaske@gmail.com</a>
           </p>
         </div>
-
-        <div class="footer-end col">Copyright © 2023 vishal maske</div>
+        <div class="col-sm-4 footer-container">
+          <h2 class="text-white footer-heading">ADDRESS</h2><br><br>
+           <p class="footer-text">Umarkhed, Yavatmal,</p>
+           <p class="footer-text">Maharashtra </p>
+           <p class="footer-text">- 445207</p>
+        </div>
+      </div>
+      <div class="footer-end container-fluid ">Copyright © 2023 vishal maske</div>
 
     </footer>
   </section>

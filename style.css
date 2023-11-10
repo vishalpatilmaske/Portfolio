@@ -35,7 +35,33 @@ ul {
   background-position: center;
   height: 600px;
 }
-
+.intro-container {
+  position: absolute;
+  background-color: red;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+.intro-wellcome {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.intro-head {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.brand {
+  font-size: 3rem;
+  font-family: Nunito Sans, serif;
+  color: white;
+}
+.intro-sentence {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
 /* second page about section of the page */
 .about-text {
   white-space: normal;
@@ -92,6 +118,7 @@ hr {
 }
 .footer-container {
   padding: 20px 0 20px;
+  margin-left: 20px;
 }
 a {
   text-decoration: none;
@@ -101,6 +128,24 @@ a {
   color: whitesmoke;
   text-align: start;
   background-color: #0c2461;
-  padding: 5px 0px 5px 0px;
-  margin-left: 0px;
+  padding: 5px 0px 5px 10px;
+}
+
+/* media query */
+@media (max-width: 765px) {
+  .formsize {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .footer-text,
+  .footer-heading {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .brand {
+    font-size: 2rem;
+  }
 }
