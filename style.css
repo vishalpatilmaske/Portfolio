@@ -37,9 +37,8 @@ ul {
 }
 .intro-container {
   position: absolute;
-  background-color: red;
-  margin: auto;
-  width: 50%;
+  margin-top:250px;
+  width: 100%;
   height: auto;
 }
 .intro-wellcome {
