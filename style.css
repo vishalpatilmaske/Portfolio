@@ -30,14 +30,16 @@ ul {
 }
 /* first page introduction section of the page  */
 .background-image {
-  background-image: url("background.jpg");
+  /* background-image: url("background.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   height: 600px;
+  background-color: black;
 }
+
 .intro-container {
   position: absolute;
-  margin-top:250px;
+  margin-top: 250px;
   width: 100%;
   height: auto;
 }
@@ -45,21 +47,26 @@ ul {
   color: white;
   font-size: 2rem;
   text-align: center;
+  font-family: Lobster;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .intro-head {
   color: white;
   font-size: 2rem;
   text-align: center;
+  font-family: Lobster, serif;
 }
 .brand {
   font-size: 3rem;
-  font-family: Nunito Sans, serif;
+  font-family: Lobster, serif;
   color: white;
 }
 .intro-sentence {
   font-size: 2rem;
   color: white;
   text-align: center;
+  font-family: Lobster;
 }
 /* second page about section of the page */
 .about-text {
@@ -129,7 +136,9 @@ a {
   background-color: #0c2461;
   padding: 5px 0px 5px 10px;
 }
-
+.footer-heading {
+  font-family: Nunito Sans, serif;
+}
 /* media query */
 @media (max-width: 765px) {
   .formsize {
