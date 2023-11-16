@@ -4,7 +4,7 @@ body {
 }
 /* navigation bar code */
 .navbar {
-  background-color: #2c3e50;
+  background-color: aqua;
 }
 ul {
   list-style-type: none;
@@ -12,15 +12,20 @@ ul {
   font-family: Nunito Sans, serif;
 }
 .nav-link {
-  color: white;
+  color: black;
   font-size: 20px;
+  font-weight: 500;
+}
+a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
 }
 .navbar-brand {
   font-family: Nunito Sans, serif;
   font-size: 2rem;
   font-weight: 700;
   font-family: "Roboto Slab", serif;
-  color: rgb(11, 241, 226);
+  /* color: rgb(11, 241, 226); */
+  color: black;
 }
 .nav-item {
   padding-right: 20px;
@@ -30,18 +35,19 @@ ul {
 }
 /* first page introduction section of the page  */
 .background-image {
-  /* background-image: url("background.jpg");
+  /*
+  background-image: url("background.jpg");
   background-size: cover;
-  background-position: center; */
-  height: 600px;
+  background-position: center;*/
+  height: 90vh;
   background-color: black;
 }
 
 .intro-container {
+  padding-top: 220px;
   position: absolute;
-  margin-top: 250px;
   width: 100%;
-  height: auto;
+  align-items: center;
 }
 .intro-wellcome {
   color: white;
@@ -49,24 +55,50 @@ ul {
   text-align: center;
   font-family: Lobster;
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
 }
 .intro-head {
   color: white;
   font-size: 2rem;
   text-align: center;
   font-family: Lobster, serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
 }
 .brand {
   font-size: 3rem;
   font-family: Lobster, serif;
   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
 }
 .intro-sentence {
   font-size: 2rem;
   color: white;
   text-align: center;
   font-family: Lobster;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
+}
+li {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+.icons {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  width: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  animation: mymove 5s;
+}
+@keyframes mymove {
+  from {
+    right: -50px;
+  }
+  to {
+    right: 10px;
+  }
 }
 /* second page about section of the page */
 .about-text {
@@ -114,6 +146,7 @@ hr {
   margin: auto;
   text-align: center;
 }
+
 /* footer */
 .main-footer {
   background-color: #213343;
@@ -132,7 +165,6 @@ a {
 }
 .footer-end {
   color: whitesmoke;
-  text-align: start;
   background-color: #0c2461;
   padding: 5px 0px 5px 10px;
 }
@@ -157,8 +189,18 @@ a {
     font-size: 2rem;
   }
 }
-@media only screen and(min-width: 400px) {
-  body {
+@media only screen and (max-width: 600px) {
+  li {
+    text-decoration: none;
+    display: inline;
+    padding: 6px;
+  }
+  .icons {
+    position: absolute;
+    margin-top: 600px;
     width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
   }
 }

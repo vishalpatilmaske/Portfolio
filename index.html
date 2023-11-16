@@ -18,9 +18,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Vishal maske</title>
@@ -29,8 +27,8 @@
 
   <body>
     <!-- nevigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container p-0">
         <a class="navbar-brand" href="#">VISHAL MASKE</a>
         <button
           class="navbar-toggler"
@@ -43,24 +41,23 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">DETAILS</a>
+              <a class="nav-link" href="#details">DETAILS</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <!-- introduction page -->
-    <section class="background-image">
+    <section id="home" class="background-image">
       <div class="intro-container col-md-12">
         <p class="intro-wellcome">Hello, Welcome...</p>
         <p class="intro-head">
@@ -68,11 +65,41 @@
         </p>
         <p class="intro-sentence">FULL STACK WEB DEVELOPER</p>
       </div>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href="#"
+              ><i
+                class="fa fa-instagram fa-3x"
+                aria-hidden="true"
+                style="color: red"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-facebook-square fa-3x" style="color: blue"></i
+            ></a>
+          </li>
+          <li>
+            <a href="">
+              <i
+                class="fa fa-linkedin-square fa-3x"
+                aria-hidden="true"
+                style="color: blue"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href=""
+              ><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
-
-    <!-- New comment added -->
     <!-- about section -->
-    <section class="about pt-5 pb-5">
+    <section id="about" class="about pt-5 pb-5">
       <div class="container">
         <div class="about-heading">
           <hr />
@@ -156,7 +183,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
     </section>
 
     <!-- details section -->
-    <section class="details pt-5 pb-5">
+    <section id="details" class="details pt-5 pb-5">
       <div class="container">
         <div class="details-heading">
           <hr />
@@ -196,7 +223,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
       </div>
     </section>
     <!-- contact -->
-    <section class="contact pt-5 pb-5">
+    <section id="contact" class="contact pt-5 pb-5">
       <div class="container">
         <div class="contact-heading">
           <hr />
