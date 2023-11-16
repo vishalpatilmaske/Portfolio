@@ -197,10 +197,19 @@ a {
   }
   .icons {
     position: absolute;
-    margin-top: 600px;
+    margin-top: 500px;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
+    animation: mymove 5s;
+  }
+  @keyframes mymove {
+    from {
+      right: -50px;
+    }
+    to {
+      right: 10px;
+    }
   }
 }
