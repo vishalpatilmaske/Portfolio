@@ -40,7 +40,7 @@ a:hover {
   background-size: cover;
   background-position: center;*/
   height: 90vh;
-  background-color: black;
+  background-color: rgb(1, 1, 45);
 }
 
 .intro-container {
@@ -91,6 +91,7 @@ li {
   justify-content: center;
   align-items: center;
   animation: mymove 5s;
+  position: fixed;
 }
 @keyframes mymove {
   from {
@@ -101,11 +102,15 @@ li {
   }
 }
 /* second page about section of the page */
+.about {
+  background-color: rgb(4, 64, 123);
+}
 .about-text {
   white-space: normal;
   font-family: Verdana, sans-serif;
   font-size: 1rem;
   text-align: justify;
+  color: white;
 }
 .about-heading,
 .skill-heading,
@@ -113,34 +118,44 @@ li {
   text-align: center;
   font-family: Nunito Sans, serif;
   font-size: 5rem;
-  color: rgb(14, 16, 16);
+  color: rgb(248, 248, 248);
 }
+
 hr {
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid whitesmoke;
   width: 200px;
 }
 /*third page skill section of the page */
 .skill {
-  background-color: rgb(17, 220, 235);
+  background-color: rgb(114, 114, 152);
 }
 .skill-heading,
+.softskill-heading,
 .tecskill-heading,
 .personal-heading,
-.qualification-heading,
-.contact-heading {
+.qualification-heading {
   text-align: center;
   font-family: Nunito Sans, serif;
+  color: white;
 }
 .skill-text,
 .details-text {
   white-space: normal;
   font-family: Verdana, sans-serif;
   text-align: justify;
+  color: white;
 }
+/* details  */
+.details {
+  background-color: rgb(6, 2, 55);
+}
+
 /* contact form  */
 .contact {
   background-color: rgb(199, 199, 202);
+  text-align: center;
+  font-family: Nunito Sans, serif;
 }
 .contact-form {
   margin: auto;
@@ -148,6 +163,9 @@ hr {
 }
 
 /* footer */
+.contact-heading {
+  color: black;
+}
 .main-footer {
   background-color: #213343;
 }
@@ -181,6 +199,16 @@ a {
   .footer-text,
   .footer-heading {
     text-align: center;
+  }
+  .aboutme-core {
+    padding-top: 100px;
+  }
+  .softskill-heading {
+    padding-top: 80px;
+  }
+
+  .qualification-heading {
+    padding-top: 80px;
   }
 }
 
