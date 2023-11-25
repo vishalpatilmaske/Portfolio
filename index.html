@@ -273,7 +273,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
           <h5>ENTER DETAILS TO CONTACT WITH ME</h5>
           <br />
           <div class="container col-md-8">
-            <form action="action.php">
+            <form>
               <div class="row mb-3">
                 <div class="col-md-6 formsize">
                   <input
@@ -307,7 +307,7 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
                 <div class="col-md-6 formsize">
                   <input
                     type="tel"
-                    name="number"
+                    name="phone"
                     class="form-control"
                     id="number"
                     placeholder="Phone"
@@ -325,12 +325,16 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
                   ></textarea>
                 </div>
               </div>
+              <div class="col mt-3">
+                <button
+                  type="submit"
+                  class="btn btn-outline-success"
+                  onclick="alert('Form submited successfully')"
+                >
+                  Submit
+                </button>
+              </div>
             </form>
-            <div class="col mt-3">
-              <button type="button" class="btn btn-outline-success">
-                Submit
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -350,15 +354,8 @@ I am pretty good at programming languages and also Expert in OOP's concepts. As 
             <p class="footer-text"></p>
           </div>
         </div>
-        <div class="footer-end container-fluid">
-          Copyright © 2023 vishal maske
-        </div>
       </footer>
     </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <div class="footer-end container-fluid">Copyright © 2023 vishal maske</div>
   </body>
 </html>
